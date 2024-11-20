@@ -7,5 +7,6 @@ public record DadosEpisodio(
         @SerializedName("Episode") Integer numero,
         @SerializedName("imdbRating") String avaliacao,
         @SerializedName("Released") String dataLancamento
+
 ) {
 }
